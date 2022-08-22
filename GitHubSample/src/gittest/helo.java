@@ -3,7 +3,8 @@ package gittest;
 public class helo {
 	public static void main(String[] args) {
 		System.out.println("hello");
-		System.out.println("hello2");
+		Math cMath = new Math();
+		System.out.println(cMath.add(2, 4));
 	}
 }
 class Math{
